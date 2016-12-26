@@ -1,0 +1,4 @@
+{
+	"verbose": true
+	, "ignore": ["vendors/*", "app_client/*"]
+}
