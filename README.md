@@ -1,8 +1,8 @@
-# UI Project Starter KIT #
+# MEAM Project Starter KIT #
 
 ## Instructions ##
 
-1. Take clone from http://gitlab.excelityglobal.com/shivaEX/startProject.git
+1. Take clone from http://github.com/subash036/mean-with-webpack.git
 
 2. Then change the name 'startProject' to the respective project name.
 
