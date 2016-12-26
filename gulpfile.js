@@ -17,7 +17,7 @@
 //gulp.task('default', ['scripts', 'watch']);
 var elixir = require('laravel-elixir')
 elixir(function (mix) {
-	//	mix.sass("./src/assets/sass/*.scss", "./deploy/assets/css/main.css");
+	mix.sass("./src/assets/sass/*.scss", "./app_client/assets/css/app.min.css");
 	mix.webpack("./src/**/*.js", "./app_client/app.min.js");
 	//	mix.webpack("./src/app/app.js", "./deploy/app/app.js");
 	mix.webpack("./node_modules/angular/angular.js", "./vendors/lib/angular/angular.js");
