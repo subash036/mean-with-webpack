@@ -16,7 +16,7 @@
 
 7. Open another Node CMD
 
-8.Run mongo DB Type command : mongod --dbpath "mongo db path"
+8. Run mongo DB Type command : mongod --dbpath "mongo db path"
 
 # Commands: #
 
