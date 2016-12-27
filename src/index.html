@@ -4,7 +4,13 @@
 <head>
 	<title>ngClient</title>
 	<link rel="stylesheet" type="text/css" href="./libs/bootstrap/css/bootstrap.css">
-	<!--	<link rel="stylesheet" type="text/css" href="./assets/css/app.css">-->
+	<link rel="stylesheet" type="text/css" href="./assets/css/app.css"> </head>
+
+<body>
+	<div ng-include="'../app/views/header.html'"></div>
+	<div class="container" ng-view></div>
+	<div ng-include="'../app/views/footer.html'"></div>
+	<!--	js references-->
 	<script type="text/javascript" src="./libs/angular/angular.js"></script>
 	<script type="text/javascript" src="./libs/angular-route/angular-route.js"></script>
 	<script type="text/javascript" src="./app/app.js"></script>
@@ -14,12 +20,6 @@
 	<script type="text/javascript" src="./app/controllers/controllers.js"></script>
 	<script type="text/javascript" src="./app/auth/auth.factory.js"></script>
 	<script type="text/javascript" src="./app/auth/auth.controller.js"></script>
-</head>
-
-<body>
-	<div ng-include="'../app/views/header.html'"></div>
-	<div class="container" ng-view></div>
-	<div ng-include="'../app/views/footer.html'"></div>
 </body>
 
 </html>
