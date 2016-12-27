@@ -17,7 +17,7 @@ gulp.task('html', function () {
 gulp.task('watch', function () {
 	gulp.watch([paths.src], ['html']);
 });
-gulp.task('test', ['connect', 'watch']);
+gulp.task('start', ['connect', 'watch']);
 //server start above code
 var elixir = require('laravel-elixir')
 elixir(function (mix) {
