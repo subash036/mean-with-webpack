@@ -1,8 +1,8 @@
-# MEAM Project Starter KIT #
+# UI Project Starter KIT #
 
 ## Instructions ##
 
-1. Take clone from http://github.com/subash036/mean-with-webpack.git
+1. Take clone from http://gitlab.excelityglobal.com/shivaEX/startProject.git
 
 2. Then change the name 'startProject' to the respective project name.
 
@@ -14,7 +14,7 @@
 
 6. Add project to Git : https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
 
-7. Open seperate Node CMD
+7. Open another Node CMD
 
 # Commands: #
 
@@ -25,20 +25,7 @@
 npm start
 ```
 
-8. Open seperate Node CMD
-
-# Commands: #
-
-### To start MongoDb ###
-```
-#!node
-
-mongod --dbpath "your database path goes here"
-
-example:mongod --dbpath /srv/mongodb/
-```
-
-9. Start working
+8. Start working
 
 
 # Commands: #
