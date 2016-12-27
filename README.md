@@ -33,7 +33,12 @@ npm start
 
 gulp start
 ```
+### To watch the changes run ###
+```
+#!node
 
+gulp watch
+```
 ### For Production ###
 
 
