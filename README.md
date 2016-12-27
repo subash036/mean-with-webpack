@@ -2,7 +2,7 @@
 
 ## Instructions ##
 
-1. Take clone from https://github.com/subash036/mean-with-webpack
+1. Take clone from http://github.com/subash036/mean-with-webpack.git
 
 2. Then change the name 'mean-with-webpack' to the respective project name.
 
