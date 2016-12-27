@@ -34,21 +34,6 @@ npm start
 gulp start
 ```
 
-### For Development ###
-
-```
-#!node
-
-gulp
-```
-
-### For watch ###
-
-```
-#!node
-
-gulp watch
-
 ### For Production ###
 
 
