@@ -10,6 +10,7 @@
     "angular-route": "~1.2.23"
   },
   "devDependencies": {
+    "gulp-connect": "^2.3.1",
     "jquery": "^3.1.1",
     "laravel-elixir": "^6.0.0-15",
     "laravel-elixir-webpack-official": "^1.0.10",
